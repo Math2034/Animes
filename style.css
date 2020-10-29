@@ -1,0 +1,154 @@
+/* ---------css do cadastro------------ */
+html {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: RGB(241, 243, 242);
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+img {
+    height: 3rem;
+}
+
+Header {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-adiciona{
+	font-size: 16px;
+	background: #cccccc;
+	max-width: 500%;
+	margin: 0 auto;
+    padding: 0 10px 10px 10px;
+}
+
+.grupo{
+	width: 55%;
+	display: inline-block;
+    padding: 10px 20px;
+}
+
+.cidade{
+    width: 55%;
+	display: inline-block;
+    padding: 20px 0px;
+}
+
+.campo{
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+    padding: .7em;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, inset 8px -2px 16px 5px rgba(0,0,0,0);     
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, inset 8px -2px 16px 5px rgba(0,0,0,0)
+}
+
+
+.Button1 {
+	box-shadow: 6px 5px 10px 1px #521c17;
+	background:linear-gradient(to bottom, #4d2d2a 5%, #bf2d22 100%);
+	background-color:#4d2d2a;
+	border-radius:42px;
+	border:3px solid #b0544d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:28px;
+	padding:10px 57px;
+	text-decoration:none;
+	position: absolute;
+	top:50%;
+	left:25%;
+}
+.Button1:hover {
+	background:linear-gradient(to bottom, #bf2d22 5%, #4d2d2a 100%);
+	background-color:#bf2d22;
+}
+.Button1:active {
+	position:relative;
+	top:1px;
+}
+
+.musicas {
+	text-shadow: 0 0 10px #FFFFFF, 40px 40px 20px rgba(206,206,206,0);
+	color: #BF2D22;
+}
+
+/* ---------css da Home------------ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+p {
+    font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+letter-spacing: 0px;
+word-spacing: 2.4px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+margin-bottom: 3rem;
+}
+
+.item {
+	text-shadow: 0 0 10px #FFFFFF, 40px 40px 20px rgba(206,206,206,0);
+	color: #ac190e; 
+}
+
+/* ---------css das openings e endings------------ */
+
+.animes {
+	
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 55px;
+}
+
+/* --------- Essa classe serve tanto pra Home quanto para as endings -------- */
+.negrito{
+	font-weight: 700;
+}
+
+/* ---------css da Informações------------ */
+
+.barra{
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 25px;
+	width: 80%;
+	padding: 2px 10px 2px 30px;
+	background-color: #f5f5f5;
+}
+
+.seta {
+	position: absolute;
+	top: 72px;
+	width: 30px;
+	padding: 6px 15px 5px 10px;
+	cursor: pointer;
+}
